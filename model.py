@@ -9,3 +9,15 @@ def predict_sentiment(text):
     if "sad" in text.lower() or "bad" in text.lower():
         return "negative"
     return "neutral"
+
+
+def predict_sentiment(text):
+    """
+    Prédit un sentiment basé sur des mots-clés simples.
+
+    Args:
+        text (str): le texte à analyser
+
+    Returns:
+        str: 'positive', 'negative' ou 'neutral'
+    """
